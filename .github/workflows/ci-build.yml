@@ -9,7 +9,7 @@ on:
 jobs:
   ci-build:
     name: CI Build
-    runs-on: ubuntu-latest
+    runs-on: macOS-latest #ubuntu-latest
     steps:
       - uses: actions/checkout@v2
     
