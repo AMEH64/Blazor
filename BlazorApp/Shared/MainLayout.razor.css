@@ -68,3 +68,10 @@
         padding-right: 1.5rem !important;
     }
 }
+
+.tailwind-css-test {
+    @apply text-5xl font-extrabold;
+}
+    .tailwind-css-test > .tailwind-css-text-bg-clip-test {
+        @apply bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500;
+    }
